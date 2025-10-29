@@ -3,3 +3,5 @@
 ⁕ To check your code: run the test file (_PersonTest.java_, _GalaxyTest.java_, etc...)
 
 ⁕ Exception messages are checked exactly in tests — match them word-for-word.
+
+⁕ Download everything except `README.md`
