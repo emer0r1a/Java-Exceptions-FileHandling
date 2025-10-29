@@ -13,15 +13,18 @@ Constructor:
 `public CelestialBody(String name, double mass)`
 
 
-Throws `IllegalArgumentException` if **mass <= 0**.
+Throws `IllegalArgumentException("Mass must be positive")` if **mass <= 0**.
 
 
 Methods:
 
 `public String getName()`
+
 `public double getMass()`
+
 `public abstract String getType()`
-`public String toCSV()`
+
+`public abstract String toCSV()`
 
 
 
