@@ -22,8 +22,4 @@ public abstract class CelestialBody {
     }
 
     public abstract String getType();
-
-    public String toCSV() {
-        return "";
-    }
 }
