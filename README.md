@@ -4,4 +4,4 @@
 
 ⁕ Exception messages are checked exactly in tests — match them word-for-word.
 
-⁕ Click **Code → Download ZIP** to get the entire project, or open `src` and download a specific package folder if you only need one exercise.
+⁕ Click **Code → Download ZIP** beside `Add File` to get the entire project, or open `src` and download a specific package folder if you only need one exercise.
