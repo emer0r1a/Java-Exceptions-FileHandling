@@ -24,8 +24,6 @@ Methods:
 
 `public abstract String getType()`
 
-`public abstract String toCSV()`
-
 
 
 
