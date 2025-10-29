@@ -18,7 +18,7 @@ public class Planet extends CelestialBody {
         return "Planet";
     }
 
-    public CelestialBody getOrbitingStar() {
+    public Star getOrbitingStar() {
         return orbitingStar;
     }
 }
