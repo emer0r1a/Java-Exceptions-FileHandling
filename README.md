@@ -1,6 +1,6 @@
 # READ ME
 
-⁕ Instructions for each exercise are provided in the `README file` inside each package.
+⁕ Instructions for each exercise are provided in the `README file` inside each directory.
 
 ⁕ Uses JUnit 5 — make sure to **import** or **add the library** before running tests.
 
