@@ -191,10 +191,10 @@ class CelestialTest {
             Galaxy.storeToFile(bodies);
 
             BufferedReader br = new BufferedReader(new FileReader("galaxy.csv"));
-            assertEquals("MainSequenceStar,Sun,1.989E30,3.8E26,5800.0,0,null,false,0", br.readLine());
-            assertEquals("NeutronStar,Pulsar,2.8E30,1.2E24,0.0,716,null,false,0", br.readLine());
-            assertEquals("GasGiant,Jupiter,1.898E27,0.0,0.0,0,Sun,false,79", br.readLine());
-            assertEquals("TerrestrialPlanet,Earth,5.972E24,0.0,0.0,0,Sun,true,0", br.readLine());
+            assertEquals("MainSequenceStar,Sun,1.989E30,3.8E26,5800.0,0.0,null,false,0", br.readLine());
+            assertEquals("NeutronStar,Pulsar,2.8E30,1.2E24,0.0,716.0,null,false,0", br.readLine());
+            assertEquals("GasGiant,Jupiter,1.898E27,0.0,0.0,0.0,Sun,false,79", br.readLine());
+            assertEquals("TerrestrialPlanet,Earth,5.972E24,0.0,0.0,0.0,Sun,true,0", br.readLine());
             assertNull(br.readLine());
         });
     }
