@@ -28,5 +28,8 @@ public class Cat extends Animal {
         return "Cat";
     }
 
-
+    @Override
+    public String toCSV() {
+        return "Cat,"+getName()+","+getAge()+","+getAdoptionFee();
+    }
 }
