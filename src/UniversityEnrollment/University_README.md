@@ -53,8 +53,6 @@ Methods:
 
 `public void performTask()` → prints: "[name] is teaching in [department]"
 
-When printed → **"Prof. [name] (" + age + ") - " + department + " - " + salary"**
-
 ## Student
 
 Extends Person and adds:
@@ -90,8 +88,6 @@ Extra Behavior:
 `public void removeAdvisor()` → sets advisor to null
 
 `public void performTask()` → prints **"[name] is studying"**
-
-When printed → **"Student [name] (" + age + ") - GPA: [gpa]" + (advisor != null ? " [Advisor: " + advisor.getName() + "]" : "")**
 
 ## Course
 
@@ -130,8 +126,6 @@ Otherwise add to list and print "[student name] has enrolled in [code]"
 `public void drop(Student student)` → removes from list
 
 `public List<Student> getEnrolled()`
-
-When printed → **"Course " + code + " - " + title + " (" + enrolled.size() + " students)"**
 
 ## Class: University
 

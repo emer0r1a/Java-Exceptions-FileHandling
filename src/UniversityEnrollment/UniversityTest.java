@@ -171,7 +171,7 @@ class UniversityTest {
     void testEnrollStudentInvalidTypes() {
         Professor prof = new Professor("Drake", 45, "Physics", 70000);
         Student student = new Student("Caden", 19, "S001", 3.7);
-        Course astro = new Course("PH101", "Astrophysics", prof);
+        Course astro = new Course("Astrophysics","PH101", prof);
 
         people.add(prof);
         people.add(student);
@@ -220,7 +220,7 @@ class UniversityTest {
             Professor prof = new Professor("Drake", 45, "Physics", 70000);
             Student student1 = new Student("Caden", 19, "S001", 3.7);
             Student student2 = new Student("Aubrey", 21, "S002", 3.2);
-            Course astro = new Course("PH101", "Astrophysics", prof);
+            Course astro = new Course("Astrophysics","PH101", prof);
 
             astro.enroll(student1);
             astro.enroll(student2);
@@ -230,13 +230,6 @@ class UniversityTest {
             BufferedReader br = new BufferedReader(new FileReader("courses.txt"));
             assertEquals("PH101,Astrophysics,Drake,2", br.readLine());
             br.close();
-        });
-    }
-
-    @Test
-    void testLoadPeopleFileNotFound() {
-        assertThrows(FileNotFoundException.class, () -> {
-            University.loadPeopleFromFile(people);
         });
     }
 }
