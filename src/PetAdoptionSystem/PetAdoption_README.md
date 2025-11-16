@@ -89,7 +89,7 @@ Removes the adopted animal from animals list.
 `public static String interact(List<Person> people, String person1, String person2)`
 
 If both people exist → return
-"Hello <person2>! I'm <person1> from the adoption center."
+"Hello < person2 >! I'm < person1 > from the adoption center."
 
 If any name doesn’t exist → throw `NoSuchElementException("<name> does not exist")`
 
