@@ -1,4 +1,4 @@
-package GalaxySim.src.UniversityEnrollment;
+package UniversityEnrollment;
 
 import java.util.List;
 

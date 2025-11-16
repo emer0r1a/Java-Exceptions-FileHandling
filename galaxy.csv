@@ -1,0 +1,4 @@
+MainSequenceStar,Sun,1.989E30,3.8E26,5800.0,0.0,null,false,0
+NeutronStar,Pulsar,2.8E30,1.2E24,0.0,716.0,null,false,0
+GasGiant,Jupiter,1.898E27,0.0,0.0,0.0,Sun,false,79
+TerrestrialPlanet,Earth,5.972E24,0.0,0.0,0.0,Sun,true,0

@@ -1,4 +1,4 @@
-package GalaxySim.src.Galaxy;
+package Galaxy_Answer;
 
 public class NeutronStar extends Star {
     private double spinRate;

@@ -1,4 +1,4 @@
-package GalaxySim.src.Galaxy;
+package Galaxy;
 
 import java.util.List;
 

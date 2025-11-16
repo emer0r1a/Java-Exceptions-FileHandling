@@ -1,4 +1,4 @@
-package GalaxySim.src.UniversityEnrollment;
+package UniversityEnrollment;
 
 public class Student extends Person {
     private String studentID;

@@ -1,4 +1,4 @@
-package GalaxySim.src.UniversityEnrollment;
+package UniversityEnrollment;
 
 public class Professor extends Person {
     private double salary;

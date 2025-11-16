@@ -1,4 +1,4 @@
-package GalaxySim.src.Galaxy;
+package Galaxy;
 
 public class GasGiant extends Planet {
     private int moonCount;

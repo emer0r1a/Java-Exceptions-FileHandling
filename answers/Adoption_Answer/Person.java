@@ -1,4 +1,4 @@
-package GalaxySim.src.PetAdoptionSystem;
+package Adoption_Answer;
 
 public class Person {
     private String name;

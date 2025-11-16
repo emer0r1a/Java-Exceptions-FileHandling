@@ -1,4 +1,4 @@
-package GalaxySim.src.Galaxy;
+package Galaxy;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

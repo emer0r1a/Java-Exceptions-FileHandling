@@ -1,4 +1,4 @@
-package GalaxySim.src.PetAdoptionSystem;
+package Adoption_Answer;
 
 public class Cat extends Animal {
     private boolean indoor;
@@ -21,6 +21,10 @@ public class Cat extends Animal {
     @Override
     public String toString() {
         return "Cat("+getName()+", Age="+getAge()+", Fee="+getAdoptionFee()+", Indoor="+getIndoor();
+    }
+
+    public boolean getIndoor() {
+        return indoor;
     }
 
     @Override

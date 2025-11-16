@@ -1,4 +1,4 @@
-package GalaxySim.src.PetAdoptionSystem;
+package PetAdoptionSystem;
 
 public abstract class Animal {
     private String name;

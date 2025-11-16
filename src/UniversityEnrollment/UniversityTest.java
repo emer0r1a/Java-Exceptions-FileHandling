@@ -1,4 +1,4 @@
-package GalaxySim.src.UniversityEnrollment;
+package UniversityEnrollment;
 
 import org.junit.jupiter.api.*;
 import java.io.*;

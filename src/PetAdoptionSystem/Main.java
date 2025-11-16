@@ -1,4 +1,4 @@
-package GalaxySim.src.PetAdoptionSystem;
+package PetAdoptionSystem;
 
 import java.util.List;
 

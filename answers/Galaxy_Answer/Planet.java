@@ -1,4 +1,4 @@
-package GalaxySim.src.Galaxy;
+package Galaxy_Answer;
 
 public class Planet extends CelestialBody {
     protected Star orbitingStar;

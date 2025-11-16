@@ -1,4 +1,4 @@
-package GalaxySim.src.Galaxy;
+package Galaxy_Answer;
 
 public abstract class CelestialBody {
     protected String name;

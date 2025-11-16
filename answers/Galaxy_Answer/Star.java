@@ -1,4 +1,4 @@
-package GalaxySim.src.Galaxy;
+package Galaxy_Answer;
 
 public class Star extends CelestialBody {
     protected double luminosity;

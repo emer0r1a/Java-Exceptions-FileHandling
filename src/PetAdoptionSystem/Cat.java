@@ -1,4 +1,4 @@
-package GalaxySim.src.PetAdoptionSystem;
+package PetAdoptionSystem;
 
 public class Cat extends Animal {
     private boolean indoor;

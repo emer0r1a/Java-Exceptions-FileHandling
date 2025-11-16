@@ -1,4 +1,4 @@
-package GalaxySim.src.PetAdoptionSystem;
+package Adoption_Answer;
 
 public class Dog extends Animal {
     private boolean trained;
@@ -16,6 +16,11 @@ public class Dog extends Animal {
     @Override
     public String getType() {
         return "Dog";
+    }
+
+    @Override
+    public String toCSV() {
+        return "Dog,"+getName()+","+getAge()+","+getAdoptionFee();
     }
 
     @Override
