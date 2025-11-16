@@ -6,9 +6,15 @@ public class Person {
 
     //change constructor
     public Person(String name, int age) {
-        this.age = age;
+        setAge(age);
         this.name = name;
     }
+
+    private void setAge(int age) {
+        if(age > 0) this.age = age;
+        else throw new IllegalArgumentException("Age must be non-negative");
+    }
+
 
     public String getName() {
         return name;

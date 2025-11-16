@@ -8,11 +8,22 @@ public abstract class Animal {
     //change constructor
     public Animal(String name, int age, double adoptionFee) {
         this.name = name;
-        this.age = age;
-        this.adoptionFee = adoptionFee;
+        setAge(age);
+        setAdoptionFee(adoptionFee);
     }
 
     //implement setter methods
+    public void setAdoptionFee(double adoptionFee) {
+        if(adoptionFee >= 100) {
+            this.adoptionFee = adoptionFee;
+        } else throw new IllegalArgumentException("Adoption fee must be at least 100");
+    }
+
+    public void setAge(int age) {
+        if(age >= 0) {
+            this.age = age;
+        } else throw new IllegalArgumentException("Age must be non-negative");
+    }
 
     public String getName() {
         return name;

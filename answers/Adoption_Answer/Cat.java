@@ -11,7 +11,7 @@ public class Cat extends Animal {
 
     public void setIndoor(int age, boolean indoor) {
         if(age < 1 && indoor) this.indoor = true;
-        else if(age < 1 && !indoor) throw new IllegalArgumentException("Kittens must be indoor cats");
+        else if(age < 1) throw new IllegalArgumentException("Kittens must be indoor cats");
     }
 
     public boolean isIndoor() {
@@ -20,7 +20,7 @@ public class Cat extends Animal {
 
     @Override
     public String toString() {
-        return "Cat("+getName()+", Age="+getAge()+", Fee="+getAdoptionFee()+", Indoor="+getIndoor();
+        return "Cat("+getName()+", Age="+getAge()+", Fee="+String.format("%.1f", getAdoptionFee())+", Indoor="+getIndoor();
     }
 
     public boolean getIndoor() {
@@ -34,6 +34,6 @@ public class Cat extends Animal {
 
     @Override
     public String toCSV() {
-        return "Cat,"+getName()+","+getAge()+","+getAdoptionFee();
+        return "Cat,"+getName()+","+getAge()+","+String.format("%.1f", getAdoptionFee())+","+isIndoor();
     }
 }
