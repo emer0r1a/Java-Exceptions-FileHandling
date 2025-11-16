@@ -1,8 +1,6 @@
 # READ ME
 
-⁕ Click **Code → Download ZIP** beside `Go to File` to get the entire project, or open `src` and download a specific package folder if you only need one exercise.
-
-⁕ Instructions for each exercise are provided in the `README file` inside each package.
+⁕ Instructions for each exercise are provided in the `README file` inside each directory.
 
 ⁕ Uses JUnit 5 — make sure to **import** or **add the library** before running tests.
 
